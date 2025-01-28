@@ -1,3 +1,6 @@
+### Published Link:
+https://ajackus-srinivas-frontend-assignment.vercel.app/
+
 # User Management Application
 
 A simple user management web application built with React. This project allows users to view, add, edit, and update user information, including name, email, and company details. It integrates with a mock API to simulate backend functionality.
