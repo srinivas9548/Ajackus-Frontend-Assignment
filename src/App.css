@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.app-container {
+  font-family: "Roboto";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ecf3ff;
+  padding: 20px;
+}
+
+.app-heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: #262626;
+}

@@ -1,0 +1,116 @@
+.user-list-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.add-user-btn {
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #4CAF50;
+    font-weight: 500;
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.add-user-btn:hover {
+    background-color: #45a049;
+}
+
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+/* action button */
+.action-button {
+    background-color: transparent;
+    border: none;
+}
+
+.edit-button-icon {
+    font-size: 24px;
+    color: #fbc96d;
+    cursor: pointer;
+}
+
+.edit-button-icon:hover {
+    color: #ff8c00;
+}
+
+.delete-button-icon {
+    font-size: 24px;
+    color: gray;
+    cursor: pointer;
+}
+
+.delete-button-icon:hover {
+    color: darkred;
+}
+
+/* Error is occured */
+.error-msg {
+    color: red;
+    margin: 15px;
+}
+
+/* Popup Container */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    padding: 0px;
+    background: #ffffff;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.close-popup {
+    align-self: flex-end;
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 8px 12px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.close-popup:hover {
+    background: darkred;
+}
